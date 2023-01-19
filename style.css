@@ -3,6 +3,7 @@ body {
     font-size: 12px;
     max-width: 960px;
     margin: auto;
+    background-image: url();
 }
 h1 {
     font-size: 3em;
@@ -52,7 +53,16 @@ hr {
 h1, h2, h3 {
     font-weight: 100;
     margin-bottom: 0;
-}
+=}
 #mainLeft {
     border-right: 1px solid lightgray;
 }
+
+img {
+    object-fit: cover;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+  }
+  
+  
